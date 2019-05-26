@@ -970,7 +970,7 @@ h2 {
   outline-offset: -1px;
 }
 
-.similiar-clients .gallery .gallery-items.2 {
+.similiar-clients .gallery .gallery-items.even {
   background-image: url(/img/gallery.jpg);
   background-color: #e2e8e8;
 }
