@@ -966,8 +966,6 @@ h2 {
       -ms-flex-positive: 0;
           flex-grow: 0;
   position: relative;
-  outline: 1px solid rgba(255, 255, 255, 0.8);
-  outline-offset: -1px;
 }
 
 .similiar-clients .gallery .gallery-items.even {
