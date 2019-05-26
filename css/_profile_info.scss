@@ -3,24 +3,21 @@ h2 {
     line-height: 1.32;
 }
 
-.navigation {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 4;
-    letter-spacing: 2.4px;
-    color: #696970;
-    margin-bottom: 130px;
-}
-
 .navigation a {
     
     text-decoration: none;
-    margin-right: 60px;
+    margin-right: 45px;
     font-family: nunito-semibold;
     padding-bottom: 7px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 2.4px;
+    color: #696970;
+    margin-bottom: 130px;
 
-    &.active,&:hover {
+    &:hover {
         font-family: nunito-extrabold;
         border-bottom: 2px solid $primary-color;
         text-decoration: none;
@@ -59,17 +56,25 @@ h2 {
         }
     }
 }
+
 .social-icons {
     list-style: none;
-    li {
-       margin-bottom: 40px;
-       cursor: pointer;
-       a {
-           text-decoration: none;
-           color: black;
-       }
+    margin-top: 140px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    i {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 40px;
+    }
+    i:hover {
+        color:#b4d3d3;
     }
 }
+
 .profile-screen {
     box-sizing: border-box;
     justify-content: space-between;
