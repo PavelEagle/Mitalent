@@ -1,0 +1,37 @@
+footer {
+    width: 1920px;
+    box-sizing: border-box;
+    padding: 49px 61px;
+    justify-content: space-between;
+    .site-title {
+        font-size: 28px;
+    }
+    .copyright {
+        font-size: 15px;
+        line-height: 2.67;
+        color: #77777e;
+        margin-top: 91px;
+    }
+    .e-mail {
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 2.14;
+        letter-spacing: 2.8px;
+        color: #1a1a1d;
+        cursor: pointer;
+        i {
+            font-size: 16px;
+            margin-left: 40px;
+        }
+    }
+    .social-icons {
+        display: flex;
+        margin: 0; 
+        margin-top: 91px;
+        justify-content: flex-end;
+
+        li {
+            margin-left: 40px;
+        }
+    }
+}
