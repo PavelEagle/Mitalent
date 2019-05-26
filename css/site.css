@@ -959,6 +959,7 @@ h2 {
   width: 420px;
   height: 490px;
   background-image: url(/img/gallery.jpg);
+  background-color: #d3dcdc;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   -webkit-box-flex: 0;
@@ -967,6 +968,11 @@ h2 {
   position: relative;
   outline: 1px solid rgba(255, 255, 255, 0.8);
   outline-offset: -1px;
+}
+
+.similiar-clients .gallery .gallery-items.2 {
+  background-image: url(/img/gallery.jpg);
+  background-color: #e2e8e8;
 }
 
 .similiar-clients .gallery .gallery-items .hover-info {
